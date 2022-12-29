@@ -19,6 +19,7 @@ const ImageofGallery = images.map( image =>
 alt = "${image.alt}"/>`
 }).join(``);
 
+galleryEl.style.display = "flex";
 
 galleryEl.insertAdjacentHTML("beforeend", ImageofGallery);
 console.log(ImageofGallery);
